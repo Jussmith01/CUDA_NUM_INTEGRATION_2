@@ -1,0 +1,1 @@
+nvcc -arch=sm_35 -g tester.cu cuda_reduction.cu cuda_lib_numer_int.cu -o INT_TESTER_CUDA.o
